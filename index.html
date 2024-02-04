@@ -23,9 +23,9 @@
     </style>
 </head>
 
-<body>
-    <header class="container mx-auto">
-        <nav>
+<body class="font-manrope">
+    <header class="container mx-auto my-14">
+        <nav class="px-3 lg:px-0">
             <!-- navbar -->
             <div>
                 <div class="navbar bg-base-100">
@@ -40,22 +40,33 @@
                             </div>
                             <ul tabindex="0"
                                 class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                                <li><a>Item 1</a></li>
-                                <li><a>Parent</a></li>
-                                <li><a>Item 3</a></li>
+                                <li><a>Home</a></li>
+                                <li><a>About</a></li>
+                                <li><a>Pages </a></li>
+                                <li><a>Blog </a></li>
+                                <li><a>Contact </a></li>
                             </ul>
                         </div>
-                        <a class="btn btn-ghost text-xl">daisyUI</a>
+                        <a class="btn btn-ghost text-xl">Hockey<span class="text-[#FF4240]">'</span>s</a>
                     </div>
                     <div class="navbar-center hidden lg:flex">
                         <ul class="menu menu-horizontal px-1">
-                            <li><a>Item 1</a></li>
-                            <li><a>Item 2</a></li>
-                            <li><a>Item 3</a></li>
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages </a></li>
+                            <li><a>Blog </a></li>
+                            <li><a>Contact </a></li>
                         </ul>
                     </div>
                     <div class="navbar-end">
-                        <a class="btn">Button</a>
+                        <button class="btn btn-ghost btn-circle"><button class="btn btn-ghost btn-circle">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                </svg>
+                            </button>
+                            <a class="btn  bg-[#FF4240] border-none text-white">Get Ticket</a>
                     </div>
                 </div>
             </div>
@@ -63,7 +74,55 @@
     </header>
 
     <main>
+        <section class=" container mx-auto mb-32">
+            <!-- Banner -->
+            <div class="px-3 lg:px-0">
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="resorse/Images/1.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="resorse/Images/1.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <img src="resorse/Images/1.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <img src="resorse/Images/1.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+        </section>
+
+        <!-- Banner End -->
+
+        <!-- club ststics -->
+        <section>
+            <div class="container mx-auto mb-20">
+                <div class="text-center">
+                    <h1 class="font-extrabold text-3xl mb-6">Professional Hockeys Club</h1>
+                    <p class="text-xs">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+                </div>
+
+            </div>
+        </section>
     </main>
 
     <footer>
